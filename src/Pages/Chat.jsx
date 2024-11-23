@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Container, Typography, Box, Paper, Button, IconButton, Menu, MenuItem } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../Contexts/AuthContext';
 import { db } from '../Config/FirebaseConfig';
 import { collection, addDoc, doc, query, orderBy, onSnapshot, updateDoc, arrayUnion } from 'firebase/firestore';
 
